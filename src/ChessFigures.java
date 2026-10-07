@@ -1,9 +1,9 @@
-public class Chessman {
+public class ChessFigures {
 
     String name;
     String color;
 
-    public Chessman(String name, String color) {
+    public ChessFigures(String name, String color) {
         this.name = name;
         this.color = color;
     }

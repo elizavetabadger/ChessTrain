@@ -1,12 +1,12 @@
 public class Main {
     public static void main(String[] args) {
 
-        Chessman[] figures = {
-                new Chessman("Пешка", "Белый"),
-                new Chessman("Конь", "Черный"),
-                new Chessman("Пешка", "Черный"),
-                new Chessman("Конь", "Белый"),
-                new Chessman("Слон", "Белый")
+        ChessFigures[] figures = {
+                new ChessFigures("Пешка", "Белый"),
+                new ChessFigures("Конь", "Черный"),
+                new ChessFigures("Пешка", "Черный"),
+                new ChessFigures("Конь", "Белый"),
+                new ChessFigures("Слон", "Белый")
         };
 
         int whiteCount = 0;
